@@ -1,0 +1,5 @@
+https:
+  port: 443
+  ssl:
+    key-store: classpath:
+    key-store-password:
