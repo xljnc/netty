@@ -19,5 +19,6 @@ public class ByteBufAllocatorTest {
         System.out.println(byteBuf.refCnt());
         byteBuf.release();
         System.out.println(byteBuf.refCnt());
+        byteBuf.readByte();
     }
 }
