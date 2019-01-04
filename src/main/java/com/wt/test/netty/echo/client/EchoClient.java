@@ -26,7 +26,7 @@ public class EchoClient {
     }
 
     public void start() {
-        int port = 8888;
+        int port = 8999;
         EventLoopGroup eventLoopGroup = new NioEventLoopGroup();
         EchoClientHandler clientHandler = new EchoClientHandler();
         Bootstrap bootstrap = new Bootstrap();

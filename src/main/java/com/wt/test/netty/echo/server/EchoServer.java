@@ -24,7 +24,7 @@ public class EchoServer {
     }
 
     public void start() {
-        int port = 8888;
+        int port = 8999;
         EventLoopGroup eventLoopGroup = new NioEventLoopGroup();
         EchoServerHandler echoServerHandler = new EchoServerHandler();
         ServerBootstrap server = new ServerBootstrap();
