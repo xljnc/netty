@@ -24,3 +24,5 @@
 /nbdist/
 /.nb-gradle/
 /.mvn/
+/src/main/resources/application-local.yml
+/src/main/resources/keystore.p12
